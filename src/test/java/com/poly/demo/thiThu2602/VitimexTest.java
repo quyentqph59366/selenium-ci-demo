@@ -1,8 +1,10 @@
 package com.poly.demo.thiThu2602;
 
+import org.junit.jupiter.api.Disabled;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+@Disabled("Skip Selenium test on CI")
 public class VitimexTest {
 
     public static void main(String[] args) throws InterruptedException {
